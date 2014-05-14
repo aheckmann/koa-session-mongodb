@@ -2,6 +2,10 @@
 
 MongoDB backed session middleware for Koa.js
 
+### Unstable
+
+This module currently suffers from a memory leak due to its reliance on the [observed](https://github.com/aheckmann/observed/issues/9) module. You probably want to wait for the next release.
+
 ## Installation
 
 ```js
